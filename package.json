@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "name": "cordova-plugin-assistbox",
+  "cordova_name": "AssistBox",
+  "description": "Redirect cordova app to AssistBox",
+  "license": "MIT",
+  "platforms": [
+    "ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "cordova": {
+    "id": "cordova-plugin-assistbox",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "nayah",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

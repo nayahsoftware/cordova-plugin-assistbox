@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-assistbox"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        version="0.0.1">
+
+  <name>AssistBox</name>
+
+  <description>
+    Redirect cordova app to AssistBox
+  </description>
+
+  <license>MIT</license>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <js-module src="www/AssistBox.js" name="AssistBox">
+    <clobbers target="window.plugins.assistBox" />
+  </js-module>
+
+  <!-- ios -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="AssistBox">
+        <param name="ios-package" value="AssistBox"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/AssistBox.h"/>
+    <source-file src="src/ios/AssistBox.m"/>
+    
+  </platform>
+
+</plugin>
