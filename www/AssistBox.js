@@ -1,16 +1,16 @@
-function AssistBox() {
-}
+cordova.define("cordova-plugin-assistbox.AssistBox", function(
+  require,
+  exports,
+  module
+) {
+  var exec = require("cordova/exec");
 
-AssistBox.prototype.goToAssistBox = function (successCallback, errorCallback, args) {
-  cordova.exec(successCallback, errorCallback, "AssistBox", "goToAssistBox", args?args:[]);
-};
+  var AssistBox = {
+    goToAssistBox: function(successCallback, errorCallback, args) {
+      alert("inside AssistBox.js");
+      exec(successCallback, errorCallback, "AssistBox", "goToAssistBox", args);
+    }
+  };
 
-AssistBox.install = function () {
-  if (!window.plugins) {
-    window.plugins = {};
-  }
-  window.plugins.assistBox = new AssistBox();
-  return window.plugins.assistBox;
-};
-
-cordova.addConstructor(AssistBox.install);
+  module.exports = AssistBox;
+});

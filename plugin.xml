@@ -17,7 +17,7 @@
   </engines>
 
   <js-module src="www/AssistBox.js" name="AssistBox">
-    <clobbers target="window.plugins.assistBox" />
+    <clobbers target="window.AssistBox" />
   </js-module>
 
   <!-- ios -->
