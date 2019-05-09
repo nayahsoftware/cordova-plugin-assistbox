@@ -7,7 +7,6 @@ cordova.define("cordova-plugin-assistbox.AssistBox", function(
 
   var AssistBox = {
     goToAssistBox: function(successCallback, errorCallback, args) {
-      alert("inside AssistBox.js");
       exec(successCallback, errorCallback, "AssistBox", "goToAssistBox", args);
     }
   };
