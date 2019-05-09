@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0",
   "name": "cordova-plugin-assistbox",
   "cordova_name": "AssistBox",
   "description": "Redirect cordova app to AssistBox",
