@@ -15,8 +15,12 @@
     AssistBoxViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"assistBoxViewController"];
     
     NSString *tokenArg = [command argumentAtIndex:0];
+    NSString *mobileServiceEndpoint = [command argumentAtIndex:1];
+    NSString *mobileStorageEndpoint = [command argumentAtIndex:2];
     if(tokenArg != nil){
         vc.token = tokenArg;
+        vc.mobileServiceEndpoint = mobileServiceEndpoint;
+        vc.mobileStorageEndpoint = mobileStorageEndpoint;
         //UINavigationController* navController = getNavigationControllerFromVC(owner);
         UIWindow *window = [[UIApplication sharedApplication] keyWindow];
         vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
