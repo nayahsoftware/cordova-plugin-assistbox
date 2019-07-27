@@ -15,11 +15,8 @@
     AssistBoxViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"assistBoxViewController"];
     
     NSString *tokenArg = [command argumentAtIndex:0];
-    NSLog(@"Token= %@", tokenArg);
     NSString *mobileServiceEndpoint = [command argumentAtIndex:1];
-    NSLog(@"Mobile Service Endpoint= %@", mobileServiceEndpoint);
     NSString *mobileStorageEndpoint = [command argumentAtIndex:2];
-    NSLog(@"Mobile Storage Endpoint= %@", mobileStorageEndpoint);
     if(tokenArg != nil && mobileServiceEndpoint != nil && mobileStorageEndpoint != nil){
         vc.token = tokenArg;
         vc.mobileServiceEndpoint = mobileServiceEndpoint;
