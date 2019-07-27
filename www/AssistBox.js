@@ -4,8 +4,10 @@ function AssistBox() {}
 AssistBox.prototype.goToAssistBox = function(
   successCallback,
   errorCallback,
-  args
+  token,
+  mobileServiceEndpoint,
+  mobileStorageEndpoint
 ) {
-  exec(successCallback, errorCallback, "AssistBox", "goToAssistBox", [args]);
+  exec(successCallback, errorCallback, "AssistBox", "goToAssistBox", [token, mobileServiceEndpoint, mobileStorageEndpoint]);
 };
 module.exports = new AssistBox();
