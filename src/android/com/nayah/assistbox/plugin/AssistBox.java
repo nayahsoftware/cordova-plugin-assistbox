@@ -1,18 +1,15 @@
-package nl.xservices.plugins;
+package com.nayah.assistbox.plugin;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
-import org.apache.cordova.PluginResult;
-import org.apache.cordova.CordovaInterface;
-import org.apache.cordova.CordovaWebView;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
+
+import com.nayah.assistbox.AssistBoxActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
 public class AssistBox extends CordovaPlugin {
   private static final String LOG_TAG = "AssistBox";
