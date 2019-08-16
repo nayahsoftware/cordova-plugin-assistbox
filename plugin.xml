@@ -29,7 +29,29 @@
     </config-file>
     <header-file src="src/ios/AssistBox.h"/>
     <source-file src="src/ios/AssistBox.m"/>
-    
+  </platform>
+  
+    <!-- android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="AssistBox">
+        <param name="android-package" value="com.nayah.assistbox.plugin.AssistBox" />
+      </feature>
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+	  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+	  <uses-feature android:name="android.hardware.camera" />
+	  <uses-feature android:name="android.hardware.camera.autofocus" />
+	  <uses-feature android:glEsVersion="0x00020000" android:required="true"></uses-feature>		
+	  <uses-permission android:name="android.permission.INTERNET" />
+	  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+	  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	  <uses-permission android:name="android.permission.CAMERA" />
+    </config-file>
+
+    <source-file src="src/android/com/nayah/assistbox/plugin/AssistBox.java" target-dir="src/com/nayah/assistbox/plugin"/>
   </platform>
 
 </plugin>
