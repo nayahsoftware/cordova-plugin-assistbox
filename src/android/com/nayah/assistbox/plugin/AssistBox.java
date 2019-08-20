@@ -20,31 +20,30 @@ public class AssistBox extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
-        try {
-            if (ACTION_GO_TO_ASSISTBOX.equals(action)) {
-                String token = args.getString(0);
-                String mobileServiceEndpoint = args.getString(1);
-                String mobileStorageEndpoint = args.getString(2);
-                if (token != null && mobileServiceEndpoint != null && mobileStorageEndpoint != null) {
-                    Context context = cordova.getActivity().getApplicationContext();
-                    Intent intent = new Intent(context, AssistBoxActivity.class);
-                    intent.putExtra("accessToken", token);
-                    intent.putExtra("mobileServiceEndpoint", mobileServiceEndpoint);
-                    intent.putExtra("mobileStorageEndpoint", mobileStorageEndpoint);
-                    cordova.getActivity().startActivity(intent);
-                    callbackContext.success("redirected");
-                    return true;
+        this.cordova.getActivity().runOnUiThread(() ->{
+            try {
+                if (ACTION_GO_TO_ASSISTBOX.equals(action)) {
+                    String token = args.getString(0);
+                    String mobileServiceEndpoint = args.getString(1);
+                    String mobileStorageEndpoint = args.getString(2);
+                    if (token != null && mobileServiceEndpoint != null && mobileStorageEndpoint != null) {
+                        Context context = cordova.getActivity().getApplicationContext();
+                        Intent intent = new Intent(context, AssistBoxActivity.class);
+                        intent.putExtra("accessToken", token);
+                        intent.putExtra("mobileServiceEndpoint", mobileServiceEndpoint);
+                        intent.putExtra("mobileStorageEndpoint", mobileStorageEndpoint);
+                        cordova.getActivity().startActivity(intent);
+                        callbackContext.success("redirected");
+                    } else {
+                        callbackContext.error("Token is required!");
+                    }
                 } else {
-                    callbackContext.error("Token is required!");
-                    return false;
+                    callbackContext.error("AssistBox plugin error." + action + " is not a supported function. Did you mean '" + ACTION_GO_TO_ASSISTBOX + "'?");
                 }
-            } else {
-                callbackContext.error("AssistBox plugin error." + action + " is not a supported function. Did you mean '" + ACTION_GO_TO_ASSISTBOX + "'?");
-                return false;
+            } catch (Exception e) {
+                callbackContext.error(e.getMessage());
             }
-        } catch (Exception e) {
-            callbackContext.error(e.getMessage());
-            return false;
-        }
+        });
+        return true;
     }
 }
