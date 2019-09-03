@@ -13,6 +13,7 @@
     NSBundle *frameworkBundle = [NSBundle bundleForClass:[AssistBoxViewController class]];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"AssistBox" bundle:frameworkBundle];
     AssistBoxViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"assistBoxViewController"];
+
     
     NSString *tokenArg = [command argumentAtIndex:0];
     NSString *mobileServiceEndpoint = [command argumentAtIndex:1];
@@ -21,12 +22,22 @@
         vc.token = tokenArg;
         vc.mobileServiceEndpoint = mobileServiceEndpoint;
         vc.mobileStorageEndpoint = mobileStorageEndpoint;
-        //UINavigationController* navController = getNavigationControllerFromVC(owner);
-        UIWindow *window = [[UIApplication sharedApplication] keyWindow];
         vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
         
-        UIViewController* navController = (UIViewController*)window.rootViewController;
-        [navController presentViewController:vc animated:YES completion:nil];
+        UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+        
+        if(self.viewController.navigationController){
+            vc.isMainAppNavigationBarHidden = self.viewController.navigationController.isNavigationBarHidden;
+            if(!self.viewController.navigationController.isNavigationBarHidden){
+                    self.viewController.navigationController.navigationBar.hidden = true;
+            }
+            vc.hasNavigationStack = YES;
+            [self.viewController.navigationController pushViewController:vc animated:NO];
+        } else {
+            UIViewController* navController = (UIViewController*)window.rootViewController;
+            vc.hasNavigationStack = NO;
+            [navController presentViewController:vc animated:NO completion:nil];
+        }
     } else {
         CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"Token is required!"];
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
