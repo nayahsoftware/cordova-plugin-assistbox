@@ -59,7 +59,7 @@
     </config-file>
     
     <source-file src="src/android/com/nayah/assistbox/plugin/AssistBox.java" target-dir="src/com/nayah/assistbox/plugin"/>
-    <source-file src="src/android/libs/assistbox.aar" target-dir="app/src/libs"/>
+    <source-file src="src/android/libs/assistbox.aar" target-dir="app/libs"/>
   </platform>
 
 </plugin>
