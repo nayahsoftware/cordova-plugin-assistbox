@@ -24,7 +24,7 @@
 
   <!-- ios -->
   <platform name="ios">
-    <framework src="src/ios/libs/AssistBoxLib.framework" />
+    <framework src="src/ios/libs/AssistBoxLib.framework" custom="true" embed="true"/>
 
     <config-file target="config.xml" parent="/*">
       <feature name="AssistBox">
