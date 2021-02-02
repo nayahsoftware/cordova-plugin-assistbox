@@ -31,14 +31,14 @@
         <param name="ios-package" value="AssistBox"/>
       </feature>
     </config-file>
-    
+
     <header-file src="src/ios/AssistBox.h"/>
     <source-file src="src/ios/AssistBox.m"/>
   </platform>
   
     <!-- android -->
   <platform name="android">
-    <framework src="build-extras-assistbox.gradle" custom="true" type="gradleReference" />
+    <framework src="src/android/gradle/build-extras-assistbox.gradle" custom="true" type="gradleReference" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="AssistBox">
