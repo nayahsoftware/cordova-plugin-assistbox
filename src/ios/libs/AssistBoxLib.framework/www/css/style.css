@@ -1,0 +1,1038 @@
+.headerIonic{
+  background: #4EA7FA; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#4EA7FA,#0091ea) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#4EA7FA,#0091ea); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#4EA7FA,#0091ea); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4EA7FA,#0091ea);
+  box-shadow: 0px 7px 15px 1px rgba(0,0,0,0.10);
+  border-bottom-color: #4EA7FA ;
+}
+.dateAndInfoClaim{
+  font-size:13px;
+}
+.statusClaim{
+  font-size:13px;
+}
+.productName{
+  font-size:13px;
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+.claimFileItemList {
+  background-color: rgba(255,255,255,0);
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  box-shadow: 0px 7px 15px 1px rgba(0,0,0,0.10);
+}
+.claimFileItemList:hover{
+  cursor:pointer;
+}
+.item .item-content.activated{
+  background-color: #FFFFFF;
+}
+.inputAppointment {
+  border: none;
+  text-align: right;
+  padding-left: 0px;
+}
+.appointmentAddForm label:last-child{
+  background-color: rgba(255,255,255,0);
+  border-bottom-color: rgba(255,255,255,0);
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0)
+}
+.textAppointment {
+  width: 0% !important;
+  font-size: 20px;
+}
+.ion-clock{
+  font-size: 20px;
+}
+.greyContent{background: #f4f4f4;}
+.videoChatBtn{
+  background: #33cd5f;
+  margin-top:30px !important;
+  border: none;
+  width: 240px;
+  margin: 0 auto;
+}
+.videoChatBtn:active{
+  background: #009926; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#009926,#28a54c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#009926,#28a54c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#009926,#28a54c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#009926,#28a54c);}
+.password {
+  background-color: rgba(255,255,255,0);
+  border-bottom-color: #4B4848;
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+}
+.passwordText {
+  color: #7c7c7c;
+}
+input[type="text"]{
+     color: #313131;;
+}
+.mail {
+  background-color: rgba(255,255,255,0);
+  border-bottom-color: #4B4848;
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+}
+.mailText {
+  color: #7c7c7c;
+}
+.loginContent .scroll{padding: 60px !important; padding-top: 80px !important;}
+.loginBtn{margin-top:30px !important; }
+.butonCalendar{
+  text-align: left;
+  background-color: transparent;
+  border:none;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  padding: 0px;
+}
+.butonCalendar:active{
+  border-bottom-color: #4B4848 !important;
+  border-top-color: rgba(255,255,255,0) !important;
+  border-left-color: rgba(255,255,255,0) !important;
+   border-right-color: rgba(255,255,255,0) !important;
+  box-sizing: inherit !important;
+}
+.timeList{
+  background-color: rgba(255,255,255,0);
+  border-bottom-color: #99aabb;
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+}
+.timeList:hover{
+  cursor: pointer;
+  background-color:rgba(0, 145, 234,0.3);
+}
+.timeList .selected{
+  background-color:rgba(0, 145, 234,0.3);
+}
+.appointmentInfoContent{ background: #E8E8E8;}
+.appointmentCancelBtn{
+    background: rgba(47, 164, 255, 0.88) !important;
+  border: none;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.appointmentCancelBtn:active{background: #128BFD !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#128BFD,#0756A1) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#128BFD,#0756A1) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#128BFD,#0756A1) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#128BFD,#0756A1) !important}
+#hasarDosyaListeleme-search{
+  border-radius:25px;
+}
+.itemClaimFileName{
+  padding: 0px !important;
+  border:1px solid;
+  background-color: #E8EAEC !important;
+  border-bottom-color: rgba(255,255,255,0);
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  border-radius:10px;
+  margin-top:20px;
+}
+.itemClaimFileName .list{
+  background-color:#E8EAEC !important;
+}
+.claimFileItemList .list{
+  background-color:#E8EAEC !important;
+}
+.item-content{
+  padding:0px !important;
+}
+.headerButton{
+    font-size: 23px;
+    background:transparent !important;
+    border: none !important;
+}
+
+.headerButton i{
+    color: #fff;
+    font-size: 23px;
+}
+
+.btnCircle {
+  display:block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid #4EA7FA;
+  background-color: #4EA7FA;
+  vertical-align: super;
+  display: inline-block;
+  margin-top: 45px
+}
+.btnCircle i {
+  color: #FFFFFF;
+  font-weight: 100;
+}
+.claimFileName{
+  padding:15px; padding-left:13px;
+  color:rgba(47, 164, 255, 0.67);
+  border-bottom-color:rgba(255,255,255,0);
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  background: #E8EAEC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FFFFFF,#E8EAEC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF,#E8EAEC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF,#E8EAEC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF,#E8EAEC);
+  font-weight: 500;
+}
+.claimFileContent{
+  background-color:#E8EAEC ;
+  padding-top: 16px;
+}
+.claimFileContent .scroll {
+  background-color: #E8EAEC;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.oval-speech {
+  display: inline-block;
+  position: relative;
+  padding:10px 20px;
+  margin:1em auto 50px;
+  text-align:center;
+  color:#fff;
+  background:#4EA7FA;
+  border-radius: 50%;
+  margin-top: 38px;
+  box-shadow: 0px 7px 15px 1px rgba(0,0,0,0.10);
+  background: #4EA7FA; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#4EA7FA,#0091ea) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#4EA7FA,#0091ea); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#4EA7FA,#0091ea); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#4EA7FA,#0091ea);
+}
+.oval-speech p {font-size:1.25em; margin: 0;}
+
+.search-input{
+  height: 25px !important;
+}
+.claimFileNo{
+  padding:15px;
+  color:rgba(47, 164, 255, 0.99);
+}
+.itemClaimFileNo{
+   background: #E8EAEC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FFFFFF,#E8EAEC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF,#E8EAEC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF,#E8EAEC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF,#E8EAEC);
+  padding: 0px !important;
+  border:0px solid;
+  margin-top:20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 8px 2px rgba(0, 0, 0, 0.06);
+}
+.appointmentTime{
+  font-size:14px;
+  padding: 20px 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600; display: block;
+  padding-top: 6px;
+}
+.appointmentItemList {
+  background-color: rgba(255,255,255,0);
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  box-shadow: 0px 6px 8px 2px rgba(0, 0, 0, 0.06);
+  margin-top:20px;
+  border-radius: 15px;
+}
+.appointmentItemList:hover{
+  cursor:pointer;
+}
+
+.btnAppointmentEdit{
+ background-color: #59acf2 !important;
+}
+.btnAppointmentEdit .activated{
+  background: #128BFD;
+}
+.btnAppointmentCancel{
+  background-color: #d62559 !important;
+}
+.btnAppointmentCancel:active{
+  background: #E6563D !important;
+}
+
+.nullAppointmentContent .scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 80% !important;
+}
+.nullAppointmentContent .scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.nullClaimFileContent .scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 80% !important;
+  margin-top: 20%;
+}
+.nullClaimFileContent .scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.appointmentInfoForm{
+  background: #FFFFFF;
+  margin-bottom: 10px;
+}
+input[disabled]{
+  background-color: transparent !important;
+}
+@media only screen and (max-width: 360px) {
+
+  .clockDiv{
+    margin-top:10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .appointmentInfoForm{
+    margin-top: 20px !important;
+  }
+  .countDown{
+    background-color: transparent; !important;
+    border: none;
+    color: #262626;
+    padding-left: 20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+  .countDown{
+    background-color: transparent; !important;
+    border: none;
+    color: #262626;
+    padding-left: 7px;
+  }
+  .appointmentInfoForm{
+    padding: 20px !important;
+  }
+  .dateInfo{
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+    padding-left: 5px !important;
+  }
+  .dateInfo{
+    padding-left: 5px !important;
+  }
+  .timeInfo{
+
+    padding-left: 5px !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1900px) {
+
+  .clockDiv{
+    margin-top:80px !important;
+    margin-bottom: 60px !important;
+  }
+  .appointmentInfoForm{
+    margin-top: 20px !important;
+  }
+  .countDown{
+    background-color: transparent; !important;
+    border: none;
+    color: #262626;
+    width: 270px;
+    margin: 0 auto;
+  }
+
+}
+.bar.bar-stable {
+  border-color: transparent !important;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #fff;
+  display: inline-block;
+}
+#clockdiv{
+  font-family: sans-serif;
+  color: red;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+.inputAppointmentAdd{
+  background-color: rgba(255,255,255,0);
+  border-bottom-color: #DCDCDC;
+  border-top-color: rgba(255,255,255,0);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  margin-left: 5px;
+}
+.appointmentAddForm{
+  background: #FFFFFF !important;
+  border: 1px solid;
+  border-bottom-color: #DCDCDC;
+  border-top-color: #DCDCDC;
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  margin-bottom: 20px;
+}
+.appointmentAddBtn{
+  width: 240px;
+  margin-top:20px;
+  text-align: center;
+}
+.headerEventText{
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden ;
+  min-width: 25px ;
+  text-overflow: ellipsis ;
+  white-space: nowrap ;
+  font-size: 18px ;
+  font-weight: 400 ;
+  color: #FFFFFF ;
+}
+
+.headerEventTextLeft{
+    min-width: 70px;
+}
+.textAppointmentInfo{
+    color: #aaaaaa;
+    font-size: 15px;
+  text-align: right;
+  font-weight: 600 !important;;
+}
+.inputAppointmentCountDown{
+  width: 240px;
+  margin: 0 auto;
+  border: none;
+}
+.infoText{
+  font-size: 18px;
+  color: #303030;
+}
+.tabs-positive > .tabs, .tabs.tabs-positive{
+  background: #4EA7FA; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#4EA7FA,#0091ea) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#4EA7FA,#0091ea); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#4EA7FA,#0091ea); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4EA7FA,#0091ea);
+  box-shadow: 3px 7px 15px 1px rgba(0,0,0,0.10);
+  border:none;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/*////// icons CSS start ////////////////////////*/
+
+#icons {
+  bottom: 0;
+  /*left: 6vw;*/
+  position: absolute;
+  width: 100%;
+  background-color: #313133;
+  text-align: center;
+}
+
+circle {
+  fill: #666;
+  fill-opacity: 0.6;
+}
+
+svg.on circle {
+  fill-opacity: 0;
+}
+
+/* on icons are hidden by default */
+path.on {
+  display: none;
+}
+
+/* off icons are displayed by default */
+path.off {
+  display: block;
+}
+
+/* on icons are displayed when parent svg has class 'on' */
+svg.on path.on {
+  display: block;
+}
+
+/* off icons are hidden when parent svg has class 'on' */
+svg.on path.off {
+  display: none;
+}
+
+svg {
+  border-radius: 48px;
+  display: inline-block;
+  transition: all .1s;
+  transition-timing-function: ease-in-out;
+}
+
+svg:hover {
+  box-shadow: 4px 4px 48px #666;
+}
+
+#icons.active svg {
+  transform: translateX(0);
+}
+
+#mute-audio {
+  transition: 40ms;
+}
+
+#mute-audio:hover,
+#mute-audio.on {
+  background: #407cf7;
+}
+
+#mute-audio:hover circle {
+  fill: #407cf7;
+}
+
+#mute-video {
+  transition: 120ms;
+}
+
+#mute-video:hover,
+#mute-video.on {
+  background: #407cf7;
+}
+
+#mute-video:hover circle {
+  fill: #407cf7;
+}
+
+#switch-video {
+  transition: 200ms;
+}
+
+#switch-video:hover {
+  background: #407cf7;
+}
+
+#switch-video:hover circle {
+  fill: #407cf7;
+}
+
+#fullscreen {
+  transition: 280ms;
+}
+
+#fullscreen:hover,
+#fullscreen.on {
+  background: #407cf7;
+}
+
+#fullscreen:hover circle {
+  fill: #407cf7;
+}
+
+#hangup {
+  transition: 360ms;
+}
+
+#hangup:hover {
+  background: #dd2c00;
+}
+#hangup:hover circle {
+  fill: #dd2c00;
+}
+.iconDiv{
+  display: inline-block;
+  padding-left: 5%;
+  padding-top: 5px;
+}
+.clientContent .scroll{
+  padding: 0;
+}
+
+.bubble:hover{
+ background-color: #000066;
+}
+.ion-android-arrow-dropright:hover{
+  color:#000066;
+}
+
+.bubble:hover{
+  background-color: transparent;
+}
+#chat-head {
+    background: #000 url('../img/chaticon.png') no-repeat 10px 10px;
+    background-size: 30px 30px;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    border-radius: 55px;
+    background-color: #d8dbe3;
+    -webkit-box-shadow: 0 2px 12px 1px rgba(0, 0, 0, .89);
+    -moz-box-shadow: 0 2px 12px 1px rgba(0, 0, 0, .89);
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, .89);
+    border: solid 1px #545558;
+    position: fixed;
+    right: -110px;
+    top: 10px;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+#chat-head i {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 4px/3px;
+    -moz-border-radius: 4px/3px;
+    border-radius: 50px;
+    background-color: #adafb5;
+    background-image: -webkit-linear-gradient(bottom, #ff1919, #ff5959);
+    background-image: -moz-linear-gradient(bottom, #ff1919, #ff5959);
+    background-image: -o-linear-gradient(bottom, #ff1919, #ff5959);
+    background-image: -ms-linear-gradient(bottom, #ff1919, #ff5959);
+    background-image: linear-gradient(to left, #ff1919, #ff5959);
+    display: none;
+    color: #fff;
+    font-style: normal;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
+    box-shadow: 0px 1px 3px #000;
+    -moz-box-shadow: 0px 1px 3px #000;
+    -webkit-box-shadow: 0px 1px 3px #000;
+    border: 1px solid rgba(255, 0, 0, .5);
+    margin: -5px 0 0 -5px;
+    text-shadow: 0 2px 0 #c51414;
+    
+}
+
+#chat-head.animate { right: 0px; }
+
+.wrapper {
+    display:none;
+}
+
+.container {
+    height: 100vh;
+    background: #eee;
+    position: relative;
+}
+
+.chatMsg {
+   height: 78%;
+}
+.platform-android .chatMsg {
+  height: 78%;
+}
+.platform-ios .chatMsg {
+  height: 83%;
+}
+.platform-android .chatMsg{
+  padding-top: 5px;
+}
+.chatMsg ul {
+    margin: 0;
+    list-style: none;
+}
+
+.msg{
+    border-radius:10px;
+}
+.msg, .msg-reply {
+    display: block;
+    background: #fff;
+    padding: 5px 15px;
+    position: relative;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+}
+.msg::before, .msg-reply::before {
+    position: absolute;
+    left: -12px;
+    top: 12px;
+    content: "";
+    display: block;
+    border-right: 12px solid #fff;
+    border-bottom: 15px solid transparent;
+}
+
+.msg-reply {
+    background: rgba(0, 145, 234, 0.43);
+    color: #fff;
+}
+.msg-reply::before {
+    left: inherit;
+    right: -12px;
+    border-right: inherit;
+    border-left: 12px solid  rgba(0, 145, 234, 0.34);;
+}
+.userInfChat{
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+    color: #949799;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.userInfChat .chatMessageDiv{
+   max-width: 70%;
+}
+.userInfChatReply{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end ;
+    margin-bottom: 1%;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+.userInfChatReply .chatMessageDiv{
+    max-width: 70%;
+}
+.avatar, .avatar-reply {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.avatar img, .avatar-reply img {
+    max-width: 30px;
+}
+
+.avatar-reply {
+    left: inherit;
+    right: 0;
+}
+
+.chatBox .mdi-attachment {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 20px;
+    bottom: 15px;
+    color: #4d61a6;
+    cursor: pointer;
+}
+.chatBox .mdi-send {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    z-index: 2;
+    bottom: 8px;
+    right: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #4d61a6;
+    text-align: center;
+    cursor: pointer;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+}
+.chatBox .mdi-send.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.chatBox textarea {
+  display: block;
+  width: -webkit-fill-available;
+  height: 100%;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  background: #fff;
+  padding: 12px 50px 12px 40px;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.hiddendiv {
+    display: none;
+}
+
+.chatBtn{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e5e5e5;
+  background: #fff;
+  display: block;
+  border-radius: 0;
+  border-left: 2px solid #e5e5e5;
+  color: #6fc3ff;
+}
+.fileBtn{
+  text-align: center;
+  line-height: 42px;
+  height: 100%;
+  font-size: larger;
+  border: none;
+}
+.chatBtnFile{
+    float:left;
+    width: 1%;
+    padding: 0px;
+    border-right: 2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+}
+.backVideoCall{
+    display:none;
+}
+
+.notification-bellWrapper {
+    display: inline-block;
+    position: relative;
+    top: 40%;
+}
+
+.notification-bell {
+    fill: #ccd1de;
+    width: 25px;
+    height: 24px;
+}
+
+.notification-bellRing {
+    fill: #ccd1de;
+    position: relative;
+    left: 9px;
+    top: 0px;
+    width: 7px;
+    height: 7px;
+    transform-origin: 1px -11px;
+}
+
+.notification-new .notification-bell {
+    animation: bellMove .4s ease-out 1, bellFill .4s linear 1 forwards;
+}
+
+.notification-new .notification-bellRing {
+    animation: ringMove .4s ease-out .05s 1, bellFill .4s linear 1 forwards;
+}
+
+.notification-bellRing svg {
+    display: block;
+    fill: #bababa;;
+    box-shadow: 1px 1px 1px #f2f2f2;
+}
+
+@keyframes bellMove {
+    0% {
+        transform: rotate(0);
+    }
+    
+    25% {
+        transform: rotate(-20deg);
+    }
+    
+    50% {
+        transform: rotate(0deg);
+    }
+    
+    75% {
+        transform: rotate(20deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes ringMove {
+    0% {
+        transform: rotate(0);
+    }
+    
+    25% {
+        transform: rotate(-25deg);
+    }
+    
+    50% {
+        transform: rotate(0deg);
+    }
+    
+    75% {
+        transform: rotate(25deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bellFill {
+    0% {
+        fill: #ccd1de;
+    }
+    
+    85% {
+        fill: #ccd1de;
+    }
+    
+    100% {
+        fill: #ffffff;
+    }
+}
+
+
+.notification-count {
+    background: #bababa;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 13px;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+    font-family: 'Helvetica', Arial;
+    transform: scale(0);
+}
+
+.notification-new .notification-count {
+    animation: notificationCount .3s linear .3s 1 forwards;
+}
+
+@keyframes notificationCount {
+    0% {
+        transform: scale(0);
+    }
+    
+    85% {
+        transform: scale(1.2);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+}
+
+.notification-loaderWrapper {
+    background: #354052;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+    z-index: 10;
+    border-radius: 7px;
+}
+
+.notification-loaderWrapper {
+    display: none;
+}
+
+.notification-loading .notification-loaderWrapper {
+    display: block;
+}
+
+
+.notification-loading .notification-loader {
+    display: block;
+    animation: notificationLoader .7s linear infinite;
+}
+
+@keyframes notificationLoader {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.displayNone {
+    display:none;
+}
+.displayBlock {
+    display:block;
+}
+
+.popover {
+    height: auto !important;
+}
+.popover ion-header-bar {
+    position: relative;
+}
+.popover ion-content {
+    position: relative;
+}
+
+.platform-ios .popover-arrow {
+        right: 0px;
+}
+
+.popover{
+    border-radius: 10px;
+}
+
+.popover a.item:first-child{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+}
+.popover a.item:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    
+}
+.vmeetify-tabs .tabs{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+    background-image: none;
+}
+.vmeetify-tabs .tabs .tab-item-active{
+    opacity: 1;
+    color: rgb(77, 35, 56);
+}
+
+/*////// icons CSS end /////////////////////////*/

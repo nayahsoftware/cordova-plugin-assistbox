@@ -1,0 +1,4 @@
+framework module AssistBoxLib {
+  header "AssistBoxLib-Swift.h"
+  requires objc
+}
