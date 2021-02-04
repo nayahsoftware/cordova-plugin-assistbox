@@ -46,7 +46,7 @@
       </feature>
     </config-file>
 
-    <config-file target="AndroidManifest.xml" parent="/manifest">
+    <edit-config target="AndroidManifest.xml" parent="/manifest" mode="merge">
       <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
       <uses-feature android:name="android.hardware.camera" />
       <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
@@ -56,7 +56,7 @@
       <uses-permission android:name="android.permission.RECORD_AUDIO" />
       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
       <uses-permission android:name="android.permission.CAMERA" />
-    </config-file>
+    </edit-config>
     
     <source-file src="src/android/com/nayah/assistbox/plugin/AssistBox.java" target-dir="src/com/nayah/assistbox/plugin"/>
     <source-file src="src/android/libs/assistbox.aar" target-dir="app/libs"/>
