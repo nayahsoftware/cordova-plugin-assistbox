@@ -46,7 +46,7 @@
       </feature>
     </config-file>
 
-    <edit-config target="AndroidManifest.xml" parent="/manifest" mode="merge">
+    <edit-config target="AndroidManifest.xml" parent="/manifest" mode="overwrite">
       <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
       <uses-feature android:name="android.hardware.camera" />
       <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
