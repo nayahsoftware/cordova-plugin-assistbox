@@ -1,5 +1,4 @@
 dependencies {
-    implementation fileTree(dir: 'libs', include: '*.jar')
     implementation (name:'assistbox', ext:'aar')
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
